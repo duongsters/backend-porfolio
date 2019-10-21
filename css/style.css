@@ -1,0 +1,432 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+    margin: 0px;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+#renderBrowser {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    z-index: 1;
+    flex-direction: column;
+}
+
+header {
+    background: transparent;
+    position: fixed;
+    color: white;
+    padding: 5vh 4vw;
+    z-index: 2;
+    width: 91vw;
+}
+
+#animateHeader table tr td {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 14px 0px;
+}
+
+header table {
+    width: 100%;
+}
+
+#myName {
+    font-size: 23px;
+    color: rgb(0, 30, 255);
+    width: 20%;
+}
+
+#navBar {
+    width: 80%;
+    text-align: right;
+}
+
+#navBar a {
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 5px 10px;
+    margin-left: 4vw;
+    color: black;
+    
+}
+#navBar a:hover {
+    border-bottom: 2px solid white;
+}
+
+#myName {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+#imgPlaced {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 90%;
+    margin: 0px auto;
+}
+
+#myImg {
+    background: linear-gradient(0deg, rgba(66, 101, 255, 0.8), rgba(46, 137, 255, 0.8)), url("../images/Screenshot1.jpeg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 100%;
+}
+
+#pageIntro {
+    width:100%;
+    border: 2vh solid white;
+}
+#pageIntro tr td {
+    width: 50%;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 84%;
+    height: 95vh;
+    padding: 0px 8%;
+}
+
+
+#intro h1 {
+    font-size: 20px;
+    word-wrap: break-word;
+ 
+}
+
+#intro table {
+    margin-top: 4vh;
+    width: 70%;
+}
+
+#intro table tr td {
+    text-align: left;
+    width: 20%;
+}
+
+
+.socialMedias {
+    background: transparent;
+    color: rgb(0, 30, 255);
+    font-size: 21px;
+    font-weight: bold;
+    transition: 0.45s ease-in-out;
+    margin: 0px 8px;
+    padding: 12px 16px;
+    border-radius: 50%;
+}
+
+.socialMedias:hover {
+    cursor: pointer;
+    background: rgb(0, 30, 255);
+    box-shadow: 0px 10px 30px rgba(66, 101, 255, 0.8);
+
+}
+
+button:focus {
+    outline: none;
+}
+
+.btnContact {    
+    background: white;
+    color: rgb(0, 30, 255);
+    border: 3px solid rgb(0, 30, 255);
+    padding: 8px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 34%;
+    border-radius: 79px;
+    margin: 2vh 0px;
+    transition: 0.45s ease-in-out;
+
+}
+
+.btnContact:hover {
+    cursor: pointer;
+    background: rgb(0, 30, 255);
+    color: white;
+    box-shadow: 0px 10px 30px rgba(66, 101, 255, 0.8);
+}
+
+#myPortfolio {
+    font-weight: bold;
+    padding: 6vh 4vw;
+    width: 91vw;
+}
+
+#myPortfolio h1 {
+    border-bottom: 4px solid rgb(0, 30, 255);
+    width: 5%;
+    padding: 4px 0px;
+}
+
+#projectImgs {
+    z-index: 1;
+    transition: 0.45s ease-in-out;
+    columns: 3;
+    column-gap: 4%;
+    width: 100%;
+
+}
+
+#projectImgs img{
+    transition: 0.45s ease-in-out;
+    margin: 4.4% 0px;
+    width: 100%;
+    height: auto;
+}
+
+#projectImgs img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#aboutMe {
+    font-weight: bold;
+    padding: 6vh 4vw;
+    width: 91vw;
+}
+
+#aboutMe h1 {
+    border-bottom: 4px solid rgb(0, 30, 255);
+    padding: 5px 0px;
+    width: 7%;
+}
+
+#contactMe {
+    padding: 6vh 4vw;
+    width: 91vw;
+}
+
+#contactMe h1 {
+    border-bottom: 4px solid rgb(0, 30, 255);
+    padding: 5px 0px;
+    width: 9.5%;
+}
+
+#contactMe table {
+    width: 100%;
+
+}
+
+#contactMe table tr td {
+    width: 50%;
+}
+
+#miniContainer table {
+    width: 50%;
+}
+
+#miniContainer table tr td {
+    font-weight: bold;
+}
+
+#contactTable tr td {
+    padding: 10px 20px;
+}
+
+#contactMe form input {
+    background: transparent;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 3px solid rgba(46, 137, 255, 0.8);
+    border: 0px;
+    padding: 8px 10px;
+    transition: 0.45s ease-in-out;
+    margin: 20px 1%;
+    width: 95%;
+
+}
+
+#contactMe form textarea {
+    resize: none;
+    background: transparent;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 3px solid rgba(46, 137, 255, 0.8);
+    border: 0px;
+    padding: 8px 10px;
+    transition: 0.45s ease-in-out;
+    margin: 20px 1%;
+    width: 95%;
+}
+
+#contactMe form input:focus {
+    border-bottom: 3px solid rgba(46, 137, 255, 0.8);
+    outline: none;
+}
+
+#contactMe form textarea:focus {
+    border-bottom: 3px solid rgba(46, 137, 255, 0.8);
+    outline: none;
+}
+
+#myAddress {
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+
+#footer {
+    font-weight: bold;
+    padding: 10vh 0px;
+    width: 100%;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(0, 30, 255);
+}
+
+::placeholder {
+    color:black;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(241,241,241,1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.88);
+}
+
+
+
+
+/* ------------------Media Querie----------------------- */
+@media (max-width: 1000px) {
+
+    header {
+        background: white;
+        position: absolute;
+        width: 95vw;
+        padding: 4vh 2vw;
+
+    }
+
+    #animateHeader table tr td {
+        display: block;
+        text-align: center;
+        padding: 15px 0px;
+        width: 100%;
+    }
+
+    #navBar a{
+        color: black;
+    }
+
+    #projectImgs {
+        columns: 1;
+        column-gap: 0%;
+    }
+
+    #projectImgs img {
+        margin: 2.2% 0px;
+
+    }
+
+    #projectImgs img:hover {
+        cursor: pointer;
+        transform: scale(1);
+    }
+
+    #myPortfolio h1 {
+        width: 20%;
+    }
+
+    #aboutMe h1 {
+        width: 25%;
+    }
+
+    #myImg {
+        display: none;
+    }
+
+    #pageIntro {
+        border: 0px;
+    }
+
+    #pageIntro tr td {
+        text-align: center;
+        width: 100%;
+    }
+
+    #aboutMe table{
+        margin-top: 6vh;
+        width:100%;
+    }
+
+    #aboutMe table tr td {
+        text-align: center;
+    }
+
+    #contactMe h1 {
+        width: 32%;
+    }
+
+    #contactMe table tr td {
+        display: block;
+        width: 100%;
+    }
+
+    #contactTable tr td {
+        padding: 10px 0px;
+    }
+
+    #contactMe form input {
+        width: 89%;
+    }
+
+    #contactMe form textarea {
+        width: 89%;
+    }
+
+
+
+    .btnContact {
+        background: rgb(0, 30, 255);
+        color: white;
+        box-shadow: 0px 10px 20px rgba(46, 137, 255, 0.8);
+        padding: 6px 30px;
+        width: 60%;
+        margin: 4vh auto;
+    }
+
+    .btnContact:hover {
+        cursor: pointer;
+        box-shadow: 0px 10px 40px rgba(46, 137, 255, 0.8);
+    }
+
+    
+}
