@@ -17,7 +17,7 @@
 In my updated portfolio, I was able to manage in using Bootstrap, Media Queries, and jquery to create my portfolio webpage. Using the mainly the .on, .onscroll .scrollTop, .animate and the .hash DOM event handles were a huge proponent in getting my portfolio page to me all within one webpage instead of creating separate pages for my about me, projects, blog/journal and contact pages. And for the vistors to scroll up and down the webpage smoothly using the .hash & .animate DOM methods specifically.
 
 ## Demo Link:
-https://limitless-headland-03015.herokuapp.com
+https://andrewqduong.herokuapp.com/
 
 ## Getting Started:
 The simpliest way in seeing a demo of my Backended Portfolio is to click on the Heroku demo link right above that leads it directly to the project without any installations required. This link can be found within this readme file or at the description area within https://github.com/duongsters/backend-porfolio
@@ -69,4 +69,4 @@ module.exports = function(app) {
 ## Author Links:
 - [GitHub](https://github.com/duongsters)
 - [linkedIn](https://www.linkedin.com/in/theandrewduong/)
-- [Portfolio](https://limitless-headland-03015.herokuapp.com)
+- [Portfolio](https://andrewqduong.herokuapp.com/)
