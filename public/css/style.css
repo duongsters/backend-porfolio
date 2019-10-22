@@ -178,6 +178,7 @@ button:focus {
     padding: 4px 0px;
 }
 
+
 #projectImgs {
     z-index: 1;
     transition: 0.45s ease-in-out;
@@ -211,6 +212,16 @@ button:focus {
     width: 7%;
 }
 
+#aboutMe p {
+    font-size: 30px;
+}
+
+#blogPosts h1 {
+    border-bottom: 4px solid rgb(0, 30, 255);
+    width: 5%;
+    padding: 4px 0px;
+}
+
 #contactMe {
     padding: 6vh 4vw;
     width: 91vw;
@@ -229,6 +240,7 @@ button:focus {
 
 #contactMe table tr td {
     width: 50%;
+    padding: 65px 0px 94px 0px;
 }
 
 #miniContainer table {
